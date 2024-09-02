@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5139B8F3-9098-BDB9-685E-D1ACB3BA4A2A" name="vendedor">
+<createdBy>jefer</createdBy>
+<createdTime>2024-08-28 00:19:07 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="4EC7D8B5-358C-A337-09A5-7741F9F720A2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CodVendedor" id="6CBC3305-BB3C-0B6B-BCD8-10C5852F5BD7">
+<createdBy>jefer</createdBy>
+<createdTime>2024-08-28 00:19:40 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="4EC7D8B5-358C-A337-09A5-7741F9F720A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NombreVendedor" id="4EB772F9-58F4-F221-1281-0DFB49B046AC">
+<createdBy>jefer</createdBy>
+<createdTime>2024-08-28 00:19:56 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="4EC7D8B5-358C-A337-09A5-7741F9F720A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vacacionista" id="A2D6E1CE-467D-6F68-8F0A-6AEB2CEB65DC">
+<createdBy>jefer</createdBy>
+<createdTime>2024-08-28 00:20:24 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="4EC7D8B5-358C-A337-09A5-7741F9F720A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="331E5DAF-07C2-FCDD-4A93-45C21963825E" name="vendedor PK">
+<createdBy>jefer</createdBy>
+<createdTime>2024-08-28 00:19:47 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="4EC7D8B5-358C-A337-09A5-7741F9F720A2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6CBC3305-BB3C-0B6B-BCD8-10C5852F5BD7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

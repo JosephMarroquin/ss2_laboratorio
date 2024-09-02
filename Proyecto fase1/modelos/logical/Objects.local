@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="5440D522-1E27-CB0B-33C5-94BC6249534D" name="cliente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="26F64F19-EA2A-5586-7474-D95822CBAF58" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="D6280F0B-23E1-2C7A-6467-9807FED6C5AB" name="producto" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="26F64F19-EA2A-5586-7474-D95822CBAF58" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="72285CCC-368A-7D00-CB28-1E8CA1F524DE" name="tienda" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="26F64F19-EA2A-5586-7474-D95822CBAF58" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="5139B8F3-9098-BDB9-685E-D1ACB3BA4A2A" name="vendedor" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="26F64F19-EA2A-5586-7474-D95822CBAF58" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="12706C90-49F0-998E-3CDA-06677C441821" name="venta" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="26F64F19-EA2A-5586-7474-D95822CBAF58" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72285CCC-368A-7D00-CB28-1E8CA1F524DE" name="tienda">
+<createdBy>jefer</createdBy>
+<createdTime>2024-08-28 00:21:24 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="4EC7D8B5-358C-A337-09A5-7741F9F720A2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SodSuSursal" id="B1DCB7C5-9DEA-4A29-C0C1-DEE5333B2835">
+<createdBy>jefer</createdBy>
+<createdTime>2024-08-28 00:21:33 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="4EC7D8B5-358C-A337-09A5-7741F9F720A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NombreSucursal" id="B95CE395-EA4D-7DF6-1F9C-969113767A6D">
+<createdBy>jefer</createdBy>
+<createdTime>2024-08-28 00:21:49 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="4EC7D8B5-358C-A337-09A5-7741F9F720A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DireccionSucursal" id="2F364BDE-EB0E-B293-D320-8C194C98A10F">
+<createdBy>jefer</createdBy>
+<createdTime>2024-08-28 00:22:27 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="4EC7D8B5-358C-A337-09A5-7741F9F720A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>900</dataTypeSize>
+<ownDataTypeParameters>900,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Region" id="02BF1D81-9D06-27BD-A455-692B9F84D91D">
+<createdBy>jefer</createdBy>
+<createdTime>2024-08-28 00:22:28 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="4EC7D8B5-358C-A337-09A5-7741F9F720A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Departamento" id="9CADBED3-B646-8210-B99B-383123CF139C">
+<createdBy>jefer</createdBy>
+<createdTime>2024-08-28 00:22:29 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="4EC7D8B5-358C-A337-09A5-7741F9F720A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F16E97F5-5B6C-3717-C224-E0FD5DFAE322" name="tienda PK">
+<createdBy>jefer</createdBy>
+<createdTime>2024-08-28 00:21:47 UTC</createdTime>
+<ownerDesignName>modelos</ownerDesignName>
+<engineerTo>
+<item key="4EC7D8B5-358C-A337-09A5-7741F9F720A2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B1DCB7C5-9DEA-4A29-C0C1-DEE5333B2835</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
